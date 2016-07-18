@@ -11,8 +11,9 @@ namespace turtle
         static void Main(string[] args)
         {
             Console.WriteLine("CineAdviser: Welcome!!!");
-            String name = "Ivan";
-            String text = "Hellow" + name;
+            Console.WriteLine("What is your name?");
+            String name = Console.ReadLine();
+            String text = "Hello, " + name;
             Console.WriteLine(text);
             Console.Read();
         }
