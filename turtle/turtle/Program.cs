@@ -10,7 +10,10 @@ namespace turtle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HelloWorld!");
+            Console.WriteLine("CineAdviser: Welcome!!!");
+            String name = "Ivan";
+            String text = "Hellow" + name;
+            Console.WriteLine(text);
             Console.Read();
         }
     }
