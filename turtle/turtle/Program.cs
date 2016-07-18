@@ -37,7 +37,7 @@ namespace turtle
                 Console.WriteLine("~ Star Way");
             } else if (genre == "erotic")
             {
-                Console.WriteLine("Please, count your ages:")
+                Console.WriteLine("Please, count your ages:");
                 String YearSting = Console.ReadLine();
                 int year = Int32.Parse(YearSting);
                 if (year >= 18)
@@ -48,6 +48,7 @@ namespace turtle
                 } else
                 {
                     Console.WriteLine("I can't recommend you any films of this genre!");
+                    Console.WriteLine("Keep into " + (18 - year) + " year/s.");
                 }
             }
             Console.Read();
